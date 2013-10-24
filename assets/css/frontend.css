@@ -1,0 +1,28 @@
+.fl-menu li {
+    list-style: none;
+}
+
+.fl-menu > p {
+    font-style: italic;
+}
+
+.fl-menu-item > h3 {
+    display: inline;
+}
+
+.fl-menu-item-meta {
+    float: right;
+}
+
+.fl-menu-section > p {
+    font-style: italic;
+}
+
+.fl-menu-item > p {
+    margin-top: 7px;
+}
+
+img.fl-menu-item-thumb {
+    margin: 0 !important;
+    padding-right: 7px;
+}
