@@ -11,10 +11,10 @@ Plugin URI: http://foodlist.demo.5x5.cz/
 Description: Easily build your restaurant/café menus within the WordPress admin.
 Author: Artprima
 Author URI: http://artprima.eu/
-Version: 1.0
+Version: 1.1
 */
 
-define('FOODLIST_VERSION', '1.0');
+define('FOODLIST_VERSION', '1.1');
 define('FOODLIST_MIN_PHP_VERSION', '5.3.0');
 define('FOODLIST_MIN_WP_VERSION', '3.4.0');
 
