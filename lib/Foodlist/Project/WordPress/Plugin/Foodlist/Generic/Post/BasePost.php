@@ -27,14 +27,25 @@ class BasePost
         $this->postId = $postId;
         return $this;
     }
-    
+
+    private function getTheExcerpt() {
+        $post = get_post();
+
+        if (post_password_required()) {
+            return __('There is no excerpt because this is a protected post.', 'foodlist');
+        }
+
+        return $post->post_excerpt;
+    }
+
+
     public function preparePostData()
     {
         $id = get_the_ID();
         $title = get_the_title();
         //$price = $this->getPrice();
         //$tags = $this->getTags();
-        $excerpt = get_the_excerpt();
+        $excerpt = $this->getTheExcerpt();
         $content = get_the_content();
             
         $this->postData = compact('id', 'title', 'excerpt', 'content');

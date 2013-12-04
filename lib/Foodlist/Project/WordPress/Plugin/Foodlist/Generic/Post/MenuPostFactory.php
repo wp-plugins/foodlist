@@ -28,7 +28,7 @@ class MenuPostFactory
         $menuItem = null;
         if ($query->have_posts()) {
             $query->the_post();
-            
+
             $menuItem = new MenuPost(get_the_ID());
             $menuItem->preparePostData();
         }

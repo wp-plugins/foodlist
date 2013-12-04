@@ -50,12 +50,14 @@ class CommonController extends BaseController
      */
     private function registerPostTypes()
     {
-        $menu = new MenuItemPost();
+        $customPosts = array();
+        $customPosts['menu-item'] = $menu = new MenuItemPost();
         $menu->setupRegistrationHook();
-        $menu = new MenuSectionPost();
+        $customPosts['menu-section'] = $menu = new MenuSectionPost();
         $menu->setupRegistrationHook();
-        $menu = new MenuPost();
+        $customPosts['menu'] = $menu = new MenuPost();
         $menu->setupRegistrationHook();
+        $this->getManager()->set('custom_posts', $customPosts);
         return $this;
     }
     

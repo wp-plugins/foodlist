@@ -18,23 +18,28 @@ class ActivationController extends BaseController
      */
     public function init()
     {
+        // in fact it should be always true, it's just for making sure
+        if (did_action('init')) {
+            // because init was called before the plugin started, we need to prepare some structures
+            // so that the plugin could install the demo data
+            add_image_size('fl-menu-tag-icon', 16, 16, true);
+            add_image_size('fl-menu-item-thumb', 100, 100, true);
+
+            fl_setup_wpdb_meta_table();
+            $this->loadTaxonomies();
+            $this->loadCustomPosts();
+        }
+
         if (get_option('foodlist_first_start', 1)) {
-            // in fact it should be always true, it's just for making sure
-            if (did_action('init')) {
-                // because init was called before the plugin started, we need to prepare some structures
-                // so that the plugin could install the demo data
-                add_image_size('fl-menu-tag-icon', 16, 16, true);
-                add_image_size('fl-menu-item-thumb', 100, 100, true);
-
-
-                fl_setup_wpdb_meta_table();
-                $this->loadTaxonomies();
-            }
             $this->createDBTables();
             $this->setupDemoData();
             $this->setupTemplates();
             update_option('foodlist_first_start', 0);
         }
+
+        // register taxonomies/post types here
+        flush_rewrite_rules();
+
         return $this;
     }
 
@@ -45,11 +50,25 @@ class ActivationController extends BaseController
     private function loadTaxonomies()
     {
         $taxonomies = $this->getManager()->get('taxonomies', array());
+
         foreach ($taxonomies as $taxonomy) {
             $taxonomy->onInit();
         }
     }
-    
+
+    /**
+     * Explicitly calls onInit for all the plugin's registered posts
+     * this is normally called at 'init' action, but is not during the activation process
+     */
+    private function loadCustomPosts()
+    {
+        $posts = $this->getManager()->get('custom_posts', array());
+
+        foreach ($posts as $post) {
+            $post->onInit();
+        }
+    }
+
     /**
      * Prepare custom tables
      * 

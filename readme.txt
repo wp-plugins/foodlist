@@ -46,6 +46,11 @@ Alternatively you can install the plugin manually.
 
 == ChangeLog ==
 
+= Version 1.2 =
+
+* Fixed empty menu excerpt issue
+* Added `flush_rewrite_rules()` call on plugin activation
+
 = Version 1.1 =
 
 * Removed screenshots from the plugin folder (moved in svn to /assets)
