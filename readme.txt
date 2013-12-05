@@ -46,6 +46,10 @@ Alternatively you can install the plugin manually.
 
 == ChangeLog ==
 
+= Version 1.3 =
+
+* Fixed wrong function names in the initialization procedure (this problem is visible when outdated PHP or WordPress version were used)
+
 = Version 1.2 =
 
 * Fixed empty menu excerpt issue
