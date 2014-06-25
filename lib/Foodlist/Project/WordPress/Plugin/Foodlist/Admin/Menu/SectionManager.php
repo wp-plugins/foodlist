@@ -159,11 +159,10 @@ class SectionManager extends MenuItem
     public function getSectionItems($sectionId)
     {
         $result = '';
-        //$items = get_post_meta($sectionId, '_fl_menu_items', true);
         $order = get_post_meta($sectionId, '_fl_menu_items_order', true);
         
         if (empty($order)) {
-            return;
+            return $result;
         }
 
         $items = explode(',', $order);
@@ -188,7 +187,6 @@ class SectionManager extends MenuItem
             }
         }
         
-        //var_dump($items);
         return $result;
     }
     

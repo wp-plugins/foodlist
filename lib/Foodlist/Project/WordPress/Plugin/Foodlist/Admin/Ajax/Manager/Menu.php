@@ -15,4 +15,9 @@ class Menu extends Base
     {
         return 'save-menu-sections';
     }
+
+    public function ajaxGetSections()
+    {
+        $this->getPagedPosts('fl-menu-section');
+    }
 }

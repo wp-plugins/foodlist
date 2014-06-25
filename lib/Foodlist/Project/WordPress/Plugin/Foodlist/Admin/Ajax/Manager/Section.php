@@ -15,5 +15,9 @@ class Section extends Base
     {
         return 'save-section-items';
     }
-    
+
+    public function ajaxGetItems()
+    {
+        $this->getPagedPosts('fl-menu-item');
+    }
 }

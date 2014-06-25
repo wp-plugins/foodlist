@@ -9,6 +9,7 @@
             api.prepareSelectboxes();
             api.prepareTextareas();
             api.handleSettingsForm();
+            api.prepareSortables();
             
             // upload progress variant
             /*
@@ -149,12 +150,58 @@
                 return result;
             };
             
-            $('#fl-menu-item-tags-select').width('95%');
-            $('#fl-menu-item-tags-select').select2({
+            $('#fl-menu-item-tags-select').width('95%').select2({
                 formatResult: format,
                 formatSelection: format,
                 escapeMarkup: function(m) { return m; }
-            });            
+            });
+
+            var el = $('#metabox-sortable-dropdown');
+            var list = $('#fl-menu-sortable-list');
+            var tpl = list.data('template');
+            var context = list.data('context');
+            var nonce = list.data('nonce');
+            el.data('placeholder', el.attr('placeholder'));
+            el.width('88%').select2({
+                //minimumInputLength: 1,
+                placeholder: el.attr('placeholder'),
+                ajax: {
+                    url: ajaxurl,
+                    type: 'POST',
+                    data: function(term, page) {
+                        return {
+                            action: context === 'items' ? 'foodlist_section' : 'foodlist_menu',
+                            method: 'Get' + context.charAt(0).toUpperCase() + context.slice(1),
+                            args: {
+                                nonce: $('input[name="'+nonce+'"]').val(),
+                                term: term,
+                                page: page,
+                                page_limit: 10
+                            }
+                        }
+                    },
+                    results: function (data, page) {
+                        var more = (page * 10) < data.total; // whether or not there are more results available
+
+                        // notice we return the value of more so Select2 knows if more results can be loaded
+                        return {results: data.posts, more: more};
+                    }
+                }
+            }).on('change', function(e){
+                //e.added.id
+                var html = tpl.replace('__title__', e.added.text).replace('__id__', e.added.id);
+                $('#fl-menu-sortable-list').append($(html));
+
+                $(this).select2(
+                    'val', null
+                );
+            });
+
+            list.on('click', '.fl-menu-sortable-item-remove', (function(){
+                $(this).parent().fadeOut(500, function(){
+                    $(this).remove();
+                });
+            }));
         },
         
         prepareTextareas: function(){
@@ -176,7 +223,11 @@
                 });
             });
         },
-        
+
+        prepareSortables: function() {
+            $('ul#fl-menu-sortable-list').sortable();
+        },
+
         handleSettingsForm: function() {
             $('#fl-delete-demo-data').click(function(){
                 $(this).attr('disabled', 'disabled');

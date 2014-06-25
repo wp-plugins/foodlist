@@ -91,7 +91,9 @@ class AdminController extends BaseController
                     )
                 )
                  */
-                || ((($screen = get_current_screen()) !== null) && ($screen->id == 'fl-menu-item'))
+                || ((($screen = get_current_screen()) !== null)
+                    &&
+                    ($screen->id == 'fl-menu-item' || $screen->id == 'fl-menu' || $screen->id == 'fl-menu-section'))
             ) {
                 if(function_exists('wp_enqueue_media')){
                     wp_enqueue_media();

@@ -9,6 +9,8 @@ namespace Foodlist\Project\WordPress\Plugin\Foodlist\Generic\PostType;
 
 use Artprima\WordPress\API\Wrapper\Generic\CustomPost;
 
+use Foodlist\Project\WordPress\Plugin\Foodlist\Admin\Metabox;
+
 class MenuSectionPostType extends CustomPost
 {
     public function __construct()
@@ -47,6 +49,10 @@ class MenuSectionPostType extends CustomPost
             'menu_position' => null,
             'supports' => array( 'title', 'thumbnail', 'excerpt' )
         );
+
+        // metaboxes
+        $metabox = new Metabox\MenuSection\ItemsMetabox();
+        $metabox->init();
 
         $this->registerColumns();
     }

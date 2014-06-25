@@ -151,3 +151,19 @@ pre.fl-code.ace_focus {
     font-size: 18px;
     line-height: 25px;
 }
+
+.fl-menu-sortable-item-remove {
+    color: #a00;
+    cursor: pointer;
+    position: absolute;
+    right: 5px;
+    top: 13px;
+}
+
+.fl-menu-sortable-item-remove:hover {
+    color: red;
+}
+
+#fl-menu-sortable-list .fl-menu-sortable-item {
+    position: relative;
+}

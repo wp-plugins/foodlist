@@ -2,7 +2,7 @@
 Contributors: v-media
 Tags: restaurant menu, café menu, restaurant, eatery, menus, bar, list
 Requires at least: 3.4
-Tested up to: 3.7
+Tested up to: 3.9.1
 Stable tag: trunk
 
 Allows you to build restaurant/bar/café menu.
@@ -45,6 +45,10 @@ Alternatively you can install the plugin manually.
 5. Menu Item editor.
 
 == ChangeLog ==
+
+= Version 1.4 =
+
+* New metaboxes when creating/editing Sections and Menus. It is now possible to build the list of sections within the menu and the list of items within the section editing screens.
 
 = Version 1.3 =
 
