@@ -126,10 +126,16 @@ class SectionManager extends MenuItem
         $result = '';
         
         if ($query->have_posts()) {
+            $i = 1;
+            $result1 = '';
+            $result2 = '';
             while ($query->have_posts()) {
                 $query->the_post();
-                $result .= '
-                    <div class="widgets-holder-wrap" id="widget-post-'.get_the_ID().'">
+                $closed = $i > 1 ? ' closed' : '';
+                $col = (++$i % 2)+1;
+
+                ${'result'.$col} .= '
+                    <div class="widgets-holder-wrap'.$closed.'" id="widget-post-'.get_the_ID().'">
                         <div class="sidebar-name">
                             <div class="sidebar-name-arrow"><br/></div>
                             <h3>'.esc_attr(strip_tags(get_the_title())).' <span class="spinner"></span></h3>
@@ -142,6 +148,12 @@ class SectionManager extends MenuItem
                         </div>
                     </div>
                 ';
+            }
+
+            for ($j = 1; $j <= 2; $j++) {
+                $result .= '<div class="sidebars-column-'.$j.'">';
+                $result .= ${'result'.$j};
+                $result .= '</div>';
             }
         }
         wp_reset_postdata();

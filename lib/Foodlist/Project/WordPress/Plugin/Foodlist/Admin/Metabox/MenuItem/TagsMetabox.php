@@ -92,9 +92,9 @@ class TagsMetabox extends PostMetabox
         if (empty($_POST['fl_menu_item']['tags'])  || !is_array($_POST['fl_menu_item']['tags'])) {
             return;
         }
-        
+
         $data = $_POST['fl_menu_item']['tags'];
-        
+
         if (!isset($data['nonce']) || !wp_verify_nonce($data['nonce'], 'tags_meta_box_nonce')) {
             return; 
         }
@@ -103,11 +103,6 @@ class TagsMetabox extends PostMetabox
             return;
         }
 
-        if (isset($data['data'])) {
-            wp_set_post_terms($postId, $data['data'], 'fl-menu-tag');
-            //var_dump($data['data']);die();
-            //$menuItem = new MenuItem($postId);
-            //$menuItem->setPrice($data['default']);
-        }
+        wp_set_post_terms($postId, empty($data['data']) ? '' : $data['data'], 'fl-menu-tag');
     }
 }

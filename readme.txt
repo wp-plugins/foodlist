@@ -46,6 +46,12 @@ Alternatively you can install the plugin manually.
 
 == ChangeLog ==
 
+= Version 1.5 =
+
+* Fixed inability to minimize menus and sections in menu and section managers
+* Fixed inability to remove tags from menu items
+* Made the look of menu and section managers closer to WP 3.9 widget manager
+
 = Version 1.4 =
 
 * New metaboxes when creating/editing Sections and Menus. It is now possible to build the list of sections within the menu and the list of items within the section editing screens.
