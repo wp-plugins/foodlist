@@ -16,8 +16,8 @@ class MenuIdShortcode extends Shortcode {
     
     public function apply($attrs, $content = null)
     {
+        /* @var MenuPost $curmenu */
         $curmenu = Manager::getInstance()->get('curmenu');
-        /* @var $curmenu MenuPost */
         $postData = $curmenu->getPostData();
         $id = $postData['id'];
         return $id;

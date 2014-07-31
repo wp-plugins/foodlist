@@ -4,6 +4,7 @@ namespace Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal;
 
 use Artprima\Text\Shortcode;
 use Artprima\Text\ShortcodeManager;
+use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Post\MenuItemPost;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Manager;
 
 class MenuItemIdShortcode extends Shortcode {
@@ -15,6 +16,7 @@ class MenuItemIdShortcode extends Shortcode {
     
     public function apply($attrs, $content = null)
     {
+        /** @var MenuItemPost $cur */
         $cur = Manager::getInstance()->get('curitem');
         $postData = $cur->getPostData();
         $id = $postData['id'];

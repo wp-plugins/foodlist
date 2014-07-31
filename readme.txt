@@ -46,6 +46,11 @@ Alternatively you can install the plugin manually.
 
 == ChangeLog ==
 
+= Version 1.6 =
+
+* New shortcodes menu template shortcodes: menu_permalink, menu_section_permalink and menu_item_permalink (can be used in the corresponding templates)
+* Polish language translation files (thanks to Paweł Krawczyk)
+
 = Version 1.5 =
 
 * Fixed inability to minimize menus and sections in menu and section managers

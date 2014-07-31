@@ -1,0 +1,928 @@
+﻿msgid ""
+msgstr ""
+"Project-Id-Version: Artprima Foodlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-06 22:34+0100\n"
+"PO-Revision-Date: 2014-07-29 21:23+0100\n"
+"Last-Translator: Pablo Escobar <kbnet@wp.pl>\n"
+"Language-Team: Artprima <ask@artprima.cz>\n"
+"Language: Polish\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: D:\\Work\\coding\\projects\\wp-plug-dev\\wp-content"
+"\\plugins\\foodlist\n"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/plugin.php:25
+#, php-format
+msgid ""
+"<div class=\"error\"><p><strong>Food List plugin error</strong>: php version "
+"%1$s detected, while %2$s or later expected! This plugin will not work, "
+"please upgrade.</p></div>"
+msgstr ""
+"<div class=\"error\"><p><strong>Food List plugin error</strong>: php version "
+"%1$s detected, while %2$s or later expected! This plugin will not work, "
+"please upgrade.</p></div>"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/plugin.php:31
+#, php-format
+msgid ""
+"<div class=\"error\"><p><strong>Food List plugin error</strong>: WordPress "
+"version %1$s detected, while %2$s or later expected!</p></div>"
+msgstr ""
+"<div class=\"error\"><p><strong>Food List plugin error</strong>: WordPress "
+"version %1$s detected, while %2$s or later expected!</p></div>"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:18
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:31
+msgid "Dashboard"
+msgstr "Konfiguracja"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:57
+msgid "Foodlist Dashboard"
+msgstr "Menu - konfiguracja "
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:60
+msgid "Foodlist Plugin welcomes you!"
+msgstr "Foodlist Plugin - witamy!"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:61
+msgid "We’ve assembled some links to get you started:"
+msgstr "Mamy przygotowane kilka linków, gdzie można rozpocząć:"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:65
+msgid "Get started"
+msgstr "Zaczynamy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:66
+msgid "Create New Menu Item"
+msgstr "Utwórz nowy element menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:67
+msgid "-- or --"
+msgstr "-- lub --"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:69
+msgid "Create New Menu Section"
+msgstr "Tworzenie nowej grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:71
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/NewMenu.php:31
+msgid "Create New Menu"
+msgstr "Tworzenie nowego menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:76
+msgid "Next Steps"
+msgstr "Dalej"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:79
+msgid "Build Sections"
+msgstr "Budowanie grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:82
+msgid "Build Menus"
+msgstr "Budowanie menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:85
+msgid "Manage Menu Tags"
+msgstr "Zarządzanie tagami"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:90
+msgid "More Actions"
+msgstr "Dodatkowe funkcje"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Dashboard.php:93
+msgid "Tune Settings"
+msgstr "Ustawienia"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:18
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:31
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:225
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:228
+msgid "Menu Manager"
+msgstr "Manager menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:204
+#, php-format
+msgid "Please <a href=\"%s\">create at least one menu</a> to proceed."
+msgstr ""
+"Proszę <a href=\"%s\"> utworzyć co najmniej jedno menu </ a>, aby "
+"kontynuować."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:211
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:206
+#, php-format
+msgid "Please <a href=\"%s\">create at least one section</a> to proceed."
+msgstr ""
+"Proszę <a href=\"%s\"> utworzyć co najmniej jedną grupę menu </ a>, aby "
+"kontynuować."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:214
+msgid ""
+"Drag Menu Sections from here to a menu on the right to use them. Drag "
+"sections back here to deactivate them and delete their settings."
+msgstr ""
+"Przeciągnij  grupy z tego okna do menu po prawej stronie, aby je "
+"wykorzystać. Przeciągnij punkty z powrotem tutaj, aby wyłączyć je i usunąć "
+"ich ustawienia."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:224
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:18
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:31
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:227
+msgid "Section Manager"
+msgstr "Manager grup"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:232
+msgid "Available Menu Sections"
+msgstr "Dostępne grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuManager.php:233
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:236
+msgid "Remove"
+msgstr "usuń"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuTags.php:18
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/MenuTags.php:31
+msgid "Menu Tags"
+msgstr "Tagi menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/NewMenu.php:18
+msgid "Menu Editor"
+msgstr "Edytor menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/NewMenu.php:57
+msgid "Foodlist Menu Editor"
+msgstr "Edytor menu Foodlist"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:213
+#, php-format
+msgid "Please <a href=\"%s\">create at least one item</a> to proceed."
+msgstr ""
+"Proszę <a href=\"%s\"> stworzyć co najmniej jeden element </ a>, aby "
+"kontynuować."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:216
+msgid ""
+"Drag Menu Items from here to a section on the right to use them. Drag items "
+"back here to deactivate them and delete their settings."
+msgstr ""
+"Przeciągnij elementy menu do grupy menu po prawej stronie, aby je "
+"wykorzystać. Przeciągnij elementy z powrotem tutaj, aby wyłączyć je i usunąć "
+"ich ustawienia."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/SectionManager.php:235
+msgid "Available Menu Items"
+msgstr "Dostępne elementy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Settings.php:18
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Settings.php:31
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Menu/Settings.php:57
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/SettingsAdminPage.php:31
+msgid "Foodlist Settings"
+msgstr "Ustawienia FoodList"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/MenuItem/PriceMetabox.php:23
+msgid "Price"
+msgstr "Cena"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/MenuItem/TagsMetabox.php:23
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/MenuItem/TagsMetabox.php:62
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:19
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:34
+msgid "Tags"
+msgstr "Tagi"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/MenuItem/TagsMetabox.php:75
+msgid "Click on white space to add more tags"
+msgstr "Kliknij na białym polu, aby dodać więcej tagów"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CssEditorMetabox.php:30
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CssEditorMetabox.php:60
+msgid "Custom CSS Rules"
+msgstr "Własne reguły CSS"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:29
+msgid "Currency"
+msgstr "Waluta"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:58
+msgid "Show Currency Sign"
+msgstr "Pokaż symbol waluty"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:61
+msgid "Currency Sign Visibility"
+msgstr "Symbol waluty widoczny"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:64
+msgid "Show"
+msgstr "Pokaż"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:72
+msgid "Currency Sign"
+msgstr "Symbol waluty"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:80
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:83
+msgid "Currency Sign Position"
+msgstr "Pozycja symbolu waluty"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:85
+msgid "After the number"
+msgstr "Za ceną"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/CurrencyMetabox.php:89
+msgid "Before the number"
+msgstr "Przed ceną"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/DataSettingsMetabox.php:29
+msgid "Data Settings"
+msgstr "Ustawienia danych"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/DataSettingsMetabox.php:57
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/DataSettingsMetabox.php:59
+msgid "Data state on plugin deactivate"
+msgstr "Dane po dezaktywacji pluginu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/DataSettingsMetabox.php:61
+msgid "Delete data on plugin deactivate"
+msgstr "Usuń dane po dezaktywacji pluginu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/DataSettingsMetabox.php:71
+msgid "Demo data"
+msgstr "dane demo"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/DataSettingsMetabox.php:73
+msgid "Delete demo data"
+msgstr "skasuj dane demo"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/TemplatesMetabox.php:28
+msgid "Templates"
+msgstr "Szablony"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/TemplatesMetabox.php:58
+msgid "Menu Template"
+msgstr "Szablon menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/TemplatesMetabox.php:76
+msgid "Menu Section Template"
+msgstr "Szablon grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Metabox/Settings/TemplatesMetabox.php:94
+msgid "Menu Item Template"
+msgstr "Szablon elementu menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/SettingsAdminPage.php:17
+msgid "Settings saved."
+msgstr "Ustawienia zapisane"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/SettingsAdminPage.php:18
+msgid "Settings not saved."
+msgstr "Ustawinia nie zapisane"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/SettingsAdminPage.php:59
+msgid "Please contact your admin to change the settings"
+msgstr "Prosimy skontaktowac się z administratorem w celu zmieny ustawień"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/SettingsAdminPage.php:86
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:216
+msgid "Update"
+msgstr "Aktualizuj"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:14
+msgid "Item added."
+msgstr "Dodano element"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:15
+msgid "Item deleted."
+msgstr "usunięto element"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:16
+msgid "Item updated."
+msgstr "Zaktualizowano element"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:17
+msgid "Item not added."
+msgstr "Nie dodano elementu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:18
+msgid "Item not updated."
+msgstr "Nie zaktualizowano elemetu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:19
+msgid "Items deleted."
+msgstr "Usunięto elementy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:35
+msgid "Foodlist: Edit Menu Tag"
+msgstr "Foodlist: edycja tagów menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:38
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:231
+msgid "Foodlist: Add Menu Tag"
+msgstr "Foodlist: dodawanie tagów menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:42
+msgid "Foodlist Menu Tags"
+msgstr "Foodlist tagi menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:95
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:191
+msgid "Menu tag name how it appears on your site."
+msgstr "Nazwy tagów menu wyświetlanych na twojej stronie."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:100
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:198
+msgid ""
+"The “slug” is the URL-friendly version of the name. It is usually all "
+"lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+"\"slug\" jest przyjazną wersją URL nazwy. Zazwyczaj wszystko jest małe i "
+"zawiera tylko litery, cyfry i myślniki."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:105
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:205
+msgid ""
+"The description that is shown when you move the mouse over the tag icon."
+msgstr ""
+"Opis, który jest wyświetlany po najechaniu kursorem na ikonę znacznika."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:108
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:209
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Table/TagListTableList.php:153
+msgid "Icon"
+msgstr "Ikona"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:111
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:28
+msgid "Add New Tag"
+msgstr "Dodaj nowy tag"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:151
+msgid "Remove icon"
+msgstr "Usuń ikonę"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:156
+msgid "Set menu tag icon"
+msgstr "Ustaw ikonę tagu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:188
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Table/TagListTableList.php:152
+msgid "Name"
+msgstr "Nazwa"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:195
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Table/TagListTableList.php:155
+msgid "Slug"
+msgstr "Slug"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Page/TagsAdminPage.php:202
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Table/TagListTableList.php:154
+msgid "Description"
+msgstr "Opis"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Table/TagListTableList.php:101
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Table/TagListTableList.php:200
+msgid "Delete"
+msgstr "Usuń"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Admin/Table/TagListTableList.php:106
+msgid "Edit"
+msgstr "Edytuj"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:84
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:85
+msgid "Healthy"
+msgstr "Zdrowy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:86
+msgid "healthy"
+msgstr "zdrowy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:90
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:91
+msgid "Spicy"
+msgstr "Pikantny"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:92
+msgid "spicy"
+msgstr "pikantny"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:96
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:97
+msgid "Star"
+msgstr "Gwiazda"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:98
+msgid "star"
+msgstr "gwiazda"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:102
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:103
+msgid "Vegetarian"
+msgstr "Wegetariański"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:104
+msgid "vegetarian"
+msgstr "wegetariański"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:108
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:109
+msgid "Award Winning"
+msgstr "Wyróżnienie"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:110
+msgid "trophy"
+msgstr "trofeum"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:114
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:115
+msgid "New"
+msgstr "Nowy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:116
+msgid "new"
+msgstr "nowy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:128
+msgid "Antipasto"
+msgstr "Przystawka"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:129
+msgid ""
+"Antipasto (plural antipasti) means \"before the meal\" and is the "
+"traditional first course of a formal Italian meal."
+msgstr "Przystawka (podawana przed posiłkiem głównym)"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:136
+msgid "Caesar Salad"
+msgstr "Sałatka Cezar"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:137
+msgid ""
+"The Almost Traditional Recipe with Croutons, Parmesan Cheese and Our Special "
+"Caesar Dressing. Available with Chicken."
+msgstr ""
+"Według tradycyjnej receptury z grzankami, parmezanem. Dostępne również z "
+"kurczakiem."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:144
+msgid "Chicken Rice Soup"
+msgstr "Zupa z ryżem i kurczakiem"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:145
+msgid ""
+"This is a great, easy chicken-and-rice soup. We like to use instant brown "
+"rice because it cooks so quickly, but you could substitute cooked brown rice."
+msgstr "To wspaniała zupa z ryżem i kurczakiem."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:151
+msgid "Coca-Cola"
+msgstr "Coca-Cola"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:152
+msgid ""
+"Coca-Cola is a carbonated soft drink sold in stores, restaurants, and "
+"vending machines throughout the world."
+msgstr "Coca-Cola"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:158
+msgid "Sprite"
+msgstr "Sprite"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:159
+msgid ""
+"Sprite is a colorless, lemon-lime flavored, caffeine-free soft drink, "
+"created by the Coca-Cola Company."
+msgstr "Sprite"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:164
+msgid "Mirinda"
+msgstr "Mirinda"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:165
+msgid ""
+"Mirinda is a brand of soft drink originally created in Spain, with global "
+"distribution. The word Mirinda means \"admirable\" or \"wonderful\" in "
+"Esperanto."
+msgstr "Mirinda"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:170
+msgid "Dessert"
+msgstr "Deser"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:171
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:204
+msgid ""
+"Dessert is a typically sweet course that concludes a meal. The course "
+"usually consists of sweet foods, but may include other items."
+msgstr "Deser jest przystawką podawaną na słodko."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:178
+msgid "Fried Shrimp"
+msgstr "Smażone krewetki"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:179
+msgid ""
+"Pan fry shrimp for a quick weeknight dinner or an impromptu dinner party "
+"with a few close family members and friends."
+msgstr ""
+"Miska smażonych krewetek nadająca się na późny obiad lub kolację w gronie "
+"rodziny lub przyjaciół."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:186
+msgid "Hot and Sour Soup"
+msgstr "Ciepła i kwaśna zupa"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:187
+msgid ""
+"Hot and Sour Soup - the classic Szechuan recipe for hot and sour soup, made "
+"with tofu, pork and dried mushrooms."
+msgstr "Ciepła i kwaśna zupa"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:203
+msgid "Desserts"
+msgstr "Desery"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:209
+msgid "Appetizers"
+msgstr "Przekąski"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:210
+msgid ""
+"Hors d'oeuvre or the first course, are food items served before the main "
+"courses of a meal."
+msgstr "Przekąski lub pierwsze danie, podawane są przed daniem głównym."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:215
+msgid "Main course"
+msgstr "Danie główne"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:216
+msgid ""
+"A main course is the featured or primary dish in a meal consisting of "
+"several courses. It usually follows the entrée (\"entry\") course. In the "
+"United States it may in fact be called \"entree\"."
+msgstr "Danie główne"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:221
+msgid "Non-alcoholic Drinks"
+msgstr "Napoje bezalkoholowe"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:222
+msgid ""
+"A non-alcoholic beverage (also known as a virgin drink) is defined in the U."
+"S. as a beverage that contains less than 0.5% alcohol by volume."
+msgstr "Napoje bezalkoholowe"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:235
+msgid "Main Menu"
+msgstr "Menu główne"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/ActivationController.php:236
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend "
+"diam facilisis ultricies interdum. Suspendisse ac nisl urna. Donec non "
+"commodo leo. Aenean ipsum elit, placerat in placerat at, scelerisque vel "
+"ligula. Mauris nec libero nec augue posuere mattis. Cras feugiat felis "
+"justo. Aenean ac interdum dolor. Aenean convallis vestibulum orci eget "
+"sagittis. Integer fringilla posuere odio ut accumsan. Nam sit amet sapien "
+"tellus. Nulla eu placerat felis."
+msgstr "Jakiś opis tekst lub cokolwiek z tekstem."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:134
+msgid "Welcome to the Foodlist plugin"
+msgstr "Witamy plugin Foodlist"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:135
+msgid ""
+"With the help of this plugin you will easily create your restaurant menus."
+"<br/><br/> Now you will be guided through the plugin."
+msgstr "Z pomocą tej wtyczki można łatwo tworzyć swoje menu w restauracji. "
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:144
+msgid "Step One: Create Menu Items"
+msgstr "Krok pierwszy: Tworzenie elementów menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:145
+msgid ""
+"First of all you need to <strong>create menu items for your menu</strong>. "
+"This is as simple as creating a post or a page."
+msgstr ""
+"Pierwsze co musisz zrobić to <strong> utworzyć elementy menu</ strong>. To "
+"jest tak proste, jak tworzenie posta lub strony."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:154
+msgid "Step Two: Create Menu Sections"
+msgstr "Krok drugi: tworzenie grup menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:155
+msgid ""
+"After you created your first menu items, you need to <strong>create menu "
+"sections</strong>. They will allow you to categorize your menus."
+msgstr ""
+"Po utworzeniu elementów menu, musisz <strong> utworzyć grupę menu </ "
+"strong>. pozwoli Ci to pogrupować swoje menu."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:164
+msgid "Step Three: Create Menus"
+msgstr "Krok trzeci: utwórz menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:165
+msgid ""
+"After you created your first menu sections, you need to <strong>create "
+"menus</strong>."
+msgstr ""
+"Po utworzoneniu grupy pierwszego menu, musisz <strong> utworzyć menu </ "
+"strong>."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:174
+msgid "Step Four: Put Items Under Sections"
+msgstr "Krok czwarty: umieść elementy menu w odpowiednich grupach"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:175
+msgid ""
+"Now you have all the elements created, but the menus are not yet built. "
+"First of all you need to <strong>put your menu items under the chosen "
+"sections</strong>."
+msgstr ""
+"Teraz masz wszystkie elementy utworzone, ale menu nie jest jeszcze "
+"zbudowane. Przede wszystkim trzeba umieścić swoje <strong> elementy menu w "
+"wybranych grupach </ strong>."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:184
+msgid "Step Five: Put Sections Under Menus"
+msgstr "Krok piąty: umieść grupy w menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:185
+msgid ""
+"This is the final preparation step. You need to <strong>put your sections "
+"under the chosen menus</strong>."
+msgstr ""
+"To jes końcowy etap. Musisz <strong>umieścić grupy w wybranym menu</strong>."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:194
+msgid "Step Six: Go Online"
+msgstr "Krok ostatni: zobacz swoje menu na stronie www"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:195
+msgid ""
+"Now you are almost done. To make your menus online you need to put the "
+"correspondent shortcodes (<code>[flmenu id=&quot;123&quot;]</code>) into a "
+"post or a page."
+msgstr ""
+"Już prawie skończyłeś. Aby twoje menu było dostępne online musisz użyć "
+"shortcodes (<code>[flmenu id=&quot;123&quot;]</code>) wklej je do posta lub "
+"strony na której ma się pojawić menu."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:245
+msgid "Foodlist"
+msgstr "Foodlist"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:327
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:329
+msgid "Add Menu"
+msgstr "Dodaj menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:340
+msgid "Please select a menu"
+msgstr "Wybierz menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:369
+msgid "Insert Menu"
+msgstr "Wstaw menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:371
+msgid "Select a menu below to add it to your post or page."
+msgstr "Wybierz menu poniżej aby dodać do posta lub strony."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:376
+msgid "Select menu"
+msgstr "Wybierz menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:396
+msgid "Can't find your menu? Make sure it is published."
+msgstr "Nie można znaleźć twojego menu? Upewnij się że jest opublikowane."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:402
+msgid "Display menu title"
+msgstr "Wyświetl tytuł menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/AdminController.php:407
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/FrontendController.php:71
+msgid "Printed Menu"
+msgstr "Drukuj menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Controller/FrontendController.php:74
+msgid "Created and printed with Foodlist."
+msgstr "Utworzone przez FoodList."
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:21
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:33
+msgid "Menu Items"
+msgstr "Elementy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:22
+msgid "Menu Item"
+msgstr "Element menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:23
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:21
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:21
+msgid "Add New"
+msgstr "Dodaj nowy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:24
+msgid "Add New Menu Item"
+msgstr "Dodaj nowy element menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:25
+msgid "Edit Menu Item"
+msgstr "Edytuj element menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:26
+msgid "New Menu Item"
+msgstr "Nowy element menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:27
+msgid "All Menu Items"
+msgstr "Wszystkie elementy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:28
+msgid "View Menu Item"
+msgstr "Zobacz element menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:29
+msgid "Search Menu Items"
+msgstr "Wysukaj elementy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:30
+msgid "No menu items found"
+msgstr "Nie znaleziono żednych elementów menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:31
+msgid "No menu items found in Trash"
+msgstr "Nie znaleziono żednych elementów menu w koszu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuItemPostType.php:74
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:66
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:67
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:19
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:31
+msgid "Menus"
+msgstr "Menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:20
+msgid "Menu"
+msgstr "Menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:22
+msgid "Add New Menu"
+msgstr "Dodaj nowe menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:23
+msgid "Edit Menu"
+msgstr "Edytuj menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:24
+msgid "New Menu"
+msgstr "Nowe menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:25
+msgid "All Menus"
+msgstr "Wszystkie menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:26
+msgid "View Menu"
+msgstr "Zobacz menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:27
+msgid "Search Menus"
+msgstr "Wyszukaj menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:28
+msgid "No menus found"
+msgstr "Nie znaleziono menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:29
+msgid "No menus found in Trash"
+msgstr "Nie znaleziono menu w koszu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:67
+msgid "Sections"
+msgstr "Grupy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuPostType.php:95
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:96
+#, php-format
+msgid "<strong><a href=\"%s\">%d</a></strong>"
+msgstr "<strong><a href=\"%s\">%d</a></strong>"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:19
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:31
+msgid "Menu Sections"
+msgstr "Grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:20
+msgid "Menu Section"
+msgstr "Grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:22
+msgid "Add New Menu Section"
+msgstr "Dodaj nową grupe menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:23
+msgid "Edit Menu Section"
+msgstr "Edytuj grupę menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:24
+msgid "New Menu Section"
+msgstr "Nowa grupa menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:25
+msgid "All Menu Sections"
+msgstr "Wszystkie grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:26
+msgid "View Menu Section"
+msgstr "Zobacz grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:27
+msgid "Search Menu Sections"
+msgstr "Wyszukaj grupy menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:28
+msgid "No menu sections found"
+msgstr "Nie znaleziono grup menu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:29
+msgid "No menu sections found in Trash"
+msgstr "Nie znaleziono grup menu w koszu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/PostType/MenuSectionPostType.php:68
+msgid "Items"
+msgstr "Elementy"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Shortcode/PrintMenuShortcode.php:43
+#, php-format
+msgid "<a href=\"%1$s\" target=\"_blank\"><span>Print %2$s</span></a>"
+msgstr "<a href=\"%1$s\" target=\"_blank\"><span>Drukuj %2$s</span></a>"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:20
+msgid "Tag"
+msgstr "Tag"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:21
+msgid "Search Tags"
+msgstr "Wyszukaj tagi"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:22
+msgid "Popular Tags"
+msgstr "Popularne tagi"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:23
+msgid "All Tags"
+msgstr "Wszystkie tagi"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:26
+msgid "Edit Tag"
+msgstr "Edytuj tagi"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:27
+msgid "Update Tag"
+msgstr "Aktualizuj tagi"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:29
+msgid "New Tag Name"
+msgstr "Nowa nazwa tagu"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:30
+msgid "Separate tags with commas"
+msgstr "Rozdziel tagi przecinkami"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:31
+msgid "Add or remove tags"
+msgstr "Dodaj lub usuń tagi"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:32
+msgid "Choose from the most used tags"
+msgstr "Wybierz z najczęściej używanych tagów"
+
+#: D:\Work\coding\projects\wp-plug-dev\wp-content\plugins\foodlist/lib/Foodlist/Project/WordPress/Plugin/Foodlist/Generic/Taxonomy/MenuTag.php:33
+msgid "No tags found."
+msgstr "Nie znaleziono tagów."

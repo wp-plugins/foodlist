@@ -12,6 +12,7 @@ use Artprima\WordPress\Helper\Settings as SettingsHelper;
 use Artprima\Text\ShortcodeManager;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuExcerptShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuIdShortcode;
+use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuPermalinkShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuSectionShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuSectionsShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuTitleShortcode;
@@ -27,15 +28,17 @@ class MenuView extends BaseMenuView
         if (self::$sm === null) {
             $sm = new ShortcodeManager();
             $sm->registerShortcode(new MenuIdShortcode());
+            $sm->registerShortcode(new MenuPermalinkShortcode());
             $sm->registerShortcode(new MenuTitleShortcode($args));
             $sm->registerShortcode(new MenuTitleTextShortcode());
             $sm->registerShortcode(new MenuExcerptShortcode());
             $sm->registerShortcode(new MenuSectionsShortcode());
             $sm->registerShortcode(new MenuSectionShortcode());
+            self::$sm = $sm;
             do_action('foodlist_register_menu_shortcode', self::$sm);
         }
 
-        return $sm->applyShortcodes($content);
+        return self::$sm->applyShortcodes($content);
     }
 
     public function getHtml($args = array())

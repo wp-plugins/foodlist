@@ -7,6 +7,7 @@
 
 namespace Foodlist\Project\WordPress\Plugin\Foodlist\Generic\View\Menu;
 
+use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Post\MenuSectionPost;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Post\MenuSectionPostFactory;
 use Artprima\WordPress\Helper\Settings as SettingsHelper;
 use Artprima\Text\ShortcodeManager;
@@ -15,6 +16,7 @@ use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuIt
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuSectionExcerptShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuSectionIdShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuSectionInstanceShortcode;
+use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuSectionPermalinkShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuSectionTitleShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Manager;
 
@@ -28,18 +30,21 @@ class MenuSectionView extends BaseMenuView
         if (self::$sm === null) {
             $sm = new ShortcodeManager();
             $sm->registerShortcode(new MenuSectionIdShortcode());
+            $sm->registerShortcode(new MenuSectionPermalinkShortcode());
             $sm->registerShortcode(new MenuSectionInstanceShortcode());
             $sm->registerShortcode(new MenuSectionTitleShortcode());
             $sm->registerShortcode(new MenuSectionExcerptShortcode());
             $sm->registerShortcode(new MenuItemsShortcode());
             $sm->registerShortcode(new MenuItemShortcode());
+            self::$sm = $sm;
             do_action('foodlist_register_menu_shortcode', self::$sm);
         }
-        return $sm->applyShortcodes($content);
+        return self::$sm->applyShortcodes($content);
     }
 
     public function getHtml()
     {
+        /** @var MenuSectionPost $menuSection */
         $menuSection = MenuSectionPostFactory::getOne($this->getId());
         
         if ($menuSection) {
