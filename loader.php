@@ -26,7 +26,7 @@ call_user_func(function(){
             __DIR__.'/lib',
         );
     }
-	$namespaces['Foodlist'] = array(
+    $namespaces['Foodlist'] = array(
         __DIR__.'/lib',
     );
 
@@ -41,7 +41,7 @@ call_user_func(function(){
 
     $_loader->register();
     if (!class_exists('Artprima\Lib', false)) {
-    	new Artprima\Lib; //
+        new Artprima\Lib; //
     }
     
     // Finally, init the plugin

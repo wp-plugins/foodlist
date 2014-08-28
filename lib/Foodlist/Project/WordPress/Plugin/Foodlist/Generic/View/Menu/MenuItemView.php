@@ -21,6 +21,7 @@ use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuIt
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuItemTagIconUrlShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuItemTagsShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuItemThumbnailShortcode;
+use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuItemThumbnailUrlShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\MenuItemTitleShortcode;
 use Foodlist\Project\WordPress\Plugin\Foodlist\Manager;
 
@@ -38,10 +39,11 @@ class MenuItemView extends BaseMenuView
             $sm->registerShortcode(new MenuItemInstanceShortcode());
             $sm->registerShortcode(new MenuItemTitleShortcode());
             $sm->registerShortcode(new MenuItemExcerptShortcode());
-            $sm->registerShortcode(new CurrencySignShortcode);
-            $sm->registerShortcode(new MenuItemPriceShortcode);
-            $sm->registerShortcode(new MenuItemThumbnailShortcode);
-            
+            $sm->registerShortcode(new CurrencySignShortcode());
+            $sm->registerShortcode(new MenuItemPriceShortcode());
+            $sm->registerShortcode(new MenuItemThumbnailShortcode());
+            $sm->registerShortcode(new MenuItemThumbnailUrlShortcode());
+
             $sm->registerShortcode(new MenuItemTagsShortcode());
             $sm->registerShortcode(new MenuItemTagIconUrlShortcode());
             $sm->registerShortcode(new MenuItemTagDescriptionShortcode());

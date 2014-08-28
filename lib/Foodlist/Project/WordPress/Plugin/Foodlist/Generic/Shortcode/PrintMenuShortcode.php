@@ -16,6 +16,7 @@ class PrintMenuShortcode extends Shortcode
     
     public function handle($attrs)
     {
+        $link = '';
         //$this->controller->handleShortcode($attrs);
         
         $attrs = wp_parse_args($attrs, array(

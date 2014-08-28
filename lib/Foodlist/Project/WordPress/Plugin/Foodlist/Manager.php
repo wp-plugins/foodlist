@@ -59,12 +59,9 @@ class Manager
     /**
      * Constructor
      * 
-     * Protected to avoid multiple instances
+     * Private to avoid multiple instances
      */
-    protected function __construct()
-    {
-        ;
-    }
+    protected function __construct() {}
     
     /**
      * Get manager instance
@@ -110,27 +107,24 @@ class Manager
      */
     public function registerActivationHooks()
     {
-        //$scm = new \Artprima\Text\ShortcodeManager();
-        //$sc = new \Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\TestShortcode('tttt');
-        //$scm->registerShortcode($sc);
-        //$sc = new \Foodlist\Project\WordPress\Plugin\Foodlist\Generic\Shortcode\Internal\XxxShortcode('xxx');
-        //$scm->registerShortcode($sc);
-        /*
-        var_dump($scm->applyShortcodes('
-            ASda fs dfasd234234 sdfasdf asdf [tttt] [xxx]sdfasdfasdfasdf[/xxx] [/tttt]
-        '));die();
-        */
-        
-        
-        register_activation_hook('foodlist/plugin.php', array(new Controller\ActivationController($this), 'init'));
-        register_deactivation_hook('foodlist/plugin.php', array(new Controller\DeactivationController($this), 'init'));
+        $activationController = new Controller\ActivationController($this);
+        $deactivationController = new Controller\DeactivationController($this);
+
+        register_activation_hook('foodlist/plugin.php', array($activationController, 'init'));
+        register_deactivation_hook('foodlist/plugin.php', array($deactivationController, 'init'));
+
+        //dev-mode hooks
+        if (class_exists('ActivationHooks', false)) {
+            add_action('wpapdev_activation', array($activationController, 'init'));
+            add_action('wpapdev_deactivation', array($deactivationController, 'init'));
+        }
     }
     
     /**
      * Inits the plugin
      * 
      * @param string $url
-     * @param srting $dir
+     * @param string $dir
      * 
      * @return Manager manager instance
      */

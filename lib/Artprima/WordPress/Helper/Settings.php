@@ -17,7 +17,7 @@ class Settings
      */
     public static function getInstance($optionName)
     {
-        if (!self::$instances[$optionName]) {
+        if (empty(self::$instances[$optionName])) {
             self::$instances[$optionName] = new self($optionName);
         }
         

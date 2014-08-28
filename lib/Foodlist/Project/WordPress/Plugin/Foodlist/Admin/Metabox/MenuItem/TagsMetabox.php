@@ -80,7 +80,11 @@ class TagsMetabox extends PostMetabox
         //if (defined( 'DOING_AUTOSAVE' ) && DOING_AUTOSAVE) {
         //    return;
         //}
-        
+
+        if (empty($_POST['post_type'])) {
+            return;
+        }
+
         if ( $this->getScreen() != $_POST['post_type'] ) {
             return;
         }

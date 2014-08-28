@@ -2,6 +2,13 @@
 
 namespace Artprima\WordPress\API\Wrapper\Generic;
 
+/**
+ * Class CustomPost
+ *
+ * @author Denis Voytyuk <ask@artprima.cz>
+ *
+ * @package Artprima\WordPress\API\Wrapper\Generic
+ */
 class CustomPost
 {
     /**
@@ -47,7 +54,7 @@ class CustomPost
      * 
      * @param string $name
      * @param mixed $value
-     * @return \Artprima\WordPress\API\Wrapper\CustomPost
+     * @return \Artprima\WordPress\API\Wrapper\Generic\CustomPost
      */
     public function setArg($name, $value)
     {
@@ -59,7 +66,7 @@ class CustomPost
      * Set arguments for the post type setup
      * 
      * @param array $args
-     * @return \Artprima\WordPress\API\Wrapper\CustomPost
+     * @return \Artprima\WordPress\API\Wrapper\Generic\CustomPost
      */
     public function setArgs(array $args)
     {
@@ -70,7 +77,7 @@ class CustomPost
     /**
      * Sets up wordpress init hook
      * 
-     * @return \Artprima\WordPress\API\Wrapper\CustomPost
+     * @return \Artprima\WordPress\API\Wrapper\Generic\CustomPost
      */
     public function setupRegistrationHook()
     {
