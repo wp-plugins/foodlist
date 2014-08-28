@@ -46,6 +46,12 @@ Alternatively you can install the plugin manually.
 
 == ChangeLog ==
 
+= Version 1.8 =
+* New shortcode to output url of the menu item thumbnail: `[menu_item_thumbnail_url size="thumbnail"]`, where `size` is any registered image size in WordPress (use `full` for the full size).
+
+= Version 1.7 =
+* Some code cleanup
+
 = Version 1.6 =
 
 * New shortcodes menu template shortcodes: menu_permalink, menu_section_permalink and menu_item_permalink (can be used in the corresponding templates)
