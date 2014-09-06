@@ -49,7 +49,7 @@ class MenuItemView extends BaseMenuView
             $sm->registerShortcode(new MenuItemTagDescriptionShortcode());
 
             self::$sm = $sm;
-            do_action('foodlist_register_menu_shortcode', self::$sm);
+            do_action('foodlist_register_menuitem_shortcode', self::$sm);
         }
         return self::$sm->applyShortcodes($content);
     }

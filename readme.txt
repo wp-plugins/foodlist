@@ -46,6 +46,9 @@ Alternatively you can install the plugin manually.
 
 == ChangeLog ==
 
+= Version 1.9 =
+* Wrong action names in `MenuItemView::applyShortcodes()` and in `MenuSectionView::applyShortcodes()`.
+
 = Version 1.8 =
 * New shortcode to output url of the menu item thumbnail: `[menu_item_thumbnail_url size="thumbnail"]`, where `size` is any registered image size in WordPress (use `full` for the full size).
 
