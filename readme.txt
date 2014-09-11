@@ -1,8 +1,8 @@
 === Foodlist ===
 Contributors: v-media
 Tags: restaurant menu, café menu, restaurant, eatery, menus, bar, list
-Requires at least: 3.4
-Tested up to: 3.9.1
+Requires at least: 3.8
+Tested up to: 4.0
 Stable tag: trunk
 
 Allows you to build restaurant/bar/café menu.
@@ -45,6 +45,9 @@ Alternatively you can install the plugin manually.
 5. Menu Item editor.
 
 == ChangeLog ==
+
+= Version 1.9.1 =
+* Tested up to WordPress 4.0 (no changes)
 
 = Version 1.9 =
 * Wrong action names in `MenuItemView::applyShortcodes()` and in `MenuSectionView::applyShortcodes()`.
