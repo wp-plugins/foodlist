@@ -56,11 +56,16 @@ class MenuManager extends MenuItem
             $multi_number = '1';
         }
 
+        $note = get_post_meta($postId, '_fl_menu_section_note', true);
+        if ($note) {
+            $note = '('.esc_html($note).')';
+        }
+
         $item = '
             <div class="widget ui-draggable" id="widget-post-'.$postId.'-'.$instanceId.'">
                 <div class="widget-top">
                     <div class="widget-title">
-                        <h4>'.esc_attr(strip_tags(get_the_title())).'<span class="in-widget-title"></span></h4>
+                        <h4>'.esc_attr(strip_tags(get_the_title())).' <span class="in-widget-title">'.$note.'</span></h4>
                     </div>
                 </div>
 

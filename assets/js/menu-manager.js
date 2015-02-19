@@ -269,6 +269,7 @@ var flMenuManager = {
     },
 
     appendTitle : function(widget) {
+        /*
         var title = $('input[id*="-title"]', widget).val() || '';
 
         if ( title )
@@ -276,7 +277,7 @@ var flMenuManager = {
 
         $(widget).children('.widget-top').children('.widget-title').children()
                 .children('.in-widget-title').html(title);
-
+        */
     },
 
     resize : function() {

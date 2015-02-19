@@ -88,18 +88,22 @@ class SectionsMetabox extends PostMetabox
 
         $template = '
             <li class="widget-top fl-menu-sortable-item">
-                    <div class="widget-title"><h4>%s</h4></div>
+                    <div class="widget-title"><h4>%s %s</h4></div>
                     <div class="fl-menu-sortable-item-remove dashicons dashicons-no"></div>
                     <input type="hidden" name="fl_menu[sections][]" value="%s" />
             </li>
         ';
 
-        echo '<ul id="fl-menu-sortable-list" class="widget ui-draggable" data-template="'.esc_attr(sprintf($template, '__title__', '__id__')).'" data-context="sections" data-nonce="fl_menu[sections_nonce]">';
+        echo '<ul id="fl-menu-sortable-list" class="widget ui-draggable" data-template="'.esc_attr(sprintf($template, '__title__', '__note__', '__id__')).'" data-context="sections" data-nonce="fl_menu[sections_nonce]">';
         if (!empty($sections) && is_array($sections)) {
             foreach ($sections as $instance) {
                 list($postId, $instanceId) = $this->parseInstanceStr($instance);
                 $title = get_the_title($postId);
-                echo sprintf($template, esc_html($title), (int)$postId);
+                $note = get_post_meta($postId, '_fl_menu_section_note', true);
+                if ($note) {
+                    $note = '<span class="in-widget-title">('.esc_html($note).')</span>';
+                }
+                echo sprintf($template, esc_html($title), $note, (int)$postId);
             }
         }
         echo "</ul>";

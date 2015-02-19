@@ -142,8 +142,8 @@ abstract class Metabox {
      * The type of Write screen on which to show the edit screen section ('post', 'page', 'dashboard', 'link',
      * 'attachment' or 'custom_post_type' where custom_post_type is the custom post type slug) 
      * 
-     * @param type $postType
-     * @return \Artprima\WordPress\API\Wrapper\Admin\Metabox
+     * @param string $screen
+     * @return \Artprima\WordPress\API\Wrapper\Admin\Metabox\Metabox
      */
     public function setScreen($screen)
     {

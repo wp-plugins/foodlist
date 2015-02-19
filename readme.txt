@@ -46,6 +46,10 @@ Alternatively you can install the plugin manually.
 
 == ChangeLog ==
 
+= Version 1.10 =
+* Tested up to WordPress 4.1.1
+* New field in the Menu Section post type: Note. You can now put your short note (description) to the section and it will be shown when you add a section to the menu. This will let you distinguish different sections with the same names.
+
 = Version 1.9.1 =
 * Tested up to WordPress 4.0 (no changes)
 

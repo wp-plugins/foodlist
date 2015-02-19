@@ -106,6 +106,7 @@ class Base extends ParentBase
                     $result[] = array(
                         'id' => $post->ID,
                         'text' => get_the_title($post),
+                        'note' => get_post_meta($post->ID, '_fl_menu_section_note', true),
                     );
                 }
             }

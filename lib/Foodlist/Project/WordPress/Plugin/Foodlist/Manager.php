@@ -84,7 +84,7 @@ class Manager
      */
     public function getPluginUrl()
     {
-       return $this->pluginUrl;
+        return $this->pluginUrl;
     }
     
     /**

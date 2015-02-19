@@ -134,7 +134,7 @@ class ItemsMetabox extends PostMetabox
             return;
         }
 
-        if (!current_user_can('edit_post')) {
+        if (!@current_user_can('edit_post')) {
             return;
         }
 

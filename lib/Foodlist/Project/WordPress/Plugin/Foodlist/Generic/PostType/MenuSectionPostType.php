@@ -51,6 +51,9 @@ class MenuSectionPostType extends CustomPost
         );
 
         // metaboxes
+        $metabox = new Metabox\MenuSection\UserNoteMetabox();
+        $metabox->init();
+
         $metabox = new Metabox\MenuSection\ItemsMetabox();
         $metabox->init();
 

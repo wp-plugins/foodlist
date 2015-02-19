@@ -2,7 +2,22 @@
 'use strict';
 
     var api;
-    
+
+    var entityMap = {
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': '&quot;',
+        "'": '&#39;',
+        "/": '&#x2F;'
+    };
+
+    function escapeHtml(string) {
+        return String(string).replace(/[&<>"'\/]/g, function (s) {
+            return entityMap[s];
+        });
+    }
+
     api = {
         init: function() {
             api.handleTagIconUploader();
@@ -165,6 +180,15 @@
             el.width('88%').select2({
                 //minimumInputLength: 1,
                 placeholder: el.attr('placeholder'),
+                formatResult: function(item) {
+                    var note = "";
+
+                    if (item.note && item.note.length) {
+                        note = " <small>(" + escapeHtml(item.note) + ")</small>";
+                    }
+                    return escapeHtml(item.text) + note;
+                },
+                escapeMarkup: function(m) { return m; },
                 ajax: {
                     url: ajaxurl,
                     type: 'POST',
@@ -189,7 +213,7 @@
                 }
             }).on('change', function(e){
                 //e.added.id
-                var html = tpl.replace('__title__', e.added.text).replace('__id__', e.added.id);
+                var html = tpl.replace('__title__', e.added.text).replace('__id__', e.added.id).replace('__note__', e.added.note.length ? '<span class="in-widget-title">('+e.added.note+')</span>' : '');
                 $('#fl-menu-sortable-list').append($(html));
 
                 $(this).select2(

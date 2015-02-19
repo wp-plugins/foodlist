@@ -167,3 +167,7 @@ pre.fl-code.ace_focus {
 #fl-menu-sortable-list .fl-menu-sortable-item {
     position: relative;
 }
+
+#fl-user-note {
+    width: 98%;
+}
